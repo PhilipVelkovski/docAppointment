@@ -1,6 +1,6 @@
-<?php include_once 'templates/header.php'; ?>
+<?php include_once 'templates/header.php';
+include_once 'utils/db.php'; ?>
 
-<h2>Appointments</h2>
-<!-- Display appointments from the database here -->
+<?php include_once 'templates/body.php' ?>
 
 <?php include_once 'templates/footer.php'; ?>
