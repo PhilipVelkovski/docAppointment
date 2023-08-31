@@ -1,0 +1,111 @@
+/* Reset default */
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: rgb(128, 170, 127);
+}
+
+header {
+  background-color: #f8f8f8;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  outline: none;
+  color: rgb(153, 69, 69);
+  font-size: large;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+.main-content {
+  margin-top: 150px;
+  text-align: center;
+  padding: 20px;
+}
+.appointment {
+  max-width: 600px;
+  margin: 130px auto;
+  padding: 20px;
+}
+.footer {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  text-align: center;
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+#successMessage {
+  text-align: center;
+}
+.book-appointment {
+  max-width: 600px;
+  margin: 130px auto;
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+label,
+input[type="checkbox"] {
+  margin-right: 10px;
+}
